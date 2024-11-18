@@ -1,0 +1,78 @@
+@media(max-width: 980px) {
+  .margintopNeg {
+    margin-top: -300px;
+  }
+
+  .bgImg {
+    background-position: right;
+    background-position-x: 0px;
+    background-position: bottom !important;
+  }
+
+  .nk-banner-saas .nk-banner-wrap {
+    padding-top: 160px;
+    height: 700px;
+  }
+
+  .shape-12::after {
+    width: 100%;
+    top: -300px;
+  }
+}
+
+@media(max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+
+  .bannerspace {
+    height: 100px;
+  }
+
+  .margintopNeg {
+    margin-top: -120px;
+    margin-bottom: 80px;
+    z-index: 200;
+    position: relative;
+  }
+
+  .custom-padding-bottom {
+    padding-bottom: 80px !important;
+  }
+
+  .nk-footer-copyright,
+  .nk-footer-copyright li {
+    display: block !important;
+    text-align: center;
+    font-size: .9em;
+  }
+
+  .titreCap {
+    font-size: 1.3em !important;
+  }
+
+  .card.bg-white {
+    padding: 10px !important;
+  }
+
+  .card.bg-white h5 {
+    font-size: 1em;
+  }
+
+  .dotted {
+    margin: 10px auto 20px;
+  }
+
+  .nk-section-title {
+    text-align: center;
+  }
+
+  .nk-footer-copyright li::after {
+    display: none !important;
+  }
+
+  .nk-banner-saas .nk-banner-wrap {
+    padding-top: 160px;
+    height: 70vh;
+  }
+}
